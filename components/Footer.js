@@ -1,12 +1,16 @@
+"use client";
 import Image from "next/image";
 
 export default function Footer() {
   return (
     // <footer className="lg:grid lg:grid-cols-3 lg:px-32 py-10">
-    <footer className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-10 gap-x-6 px-6 sm:px-10 lg:px-32 py-10 bg-white text-black">
+    <footer className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-10 gap-x-6 px-6 sm:px-10 lg:px-32 py-10 bg-white text-black below-xs:max-w-full xsmax:bg-red-500">
       <div>
-        <h3 className="font-semibold text-black text-3xl md:text-4xl">
-          Jadoo.
+        <h3
+          className="font-semibold text-black text-3xl md:text-4xl"
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+        >
+          Jad<span className="text-orange-400">oo</span>.
         </h3>
         <p className="max-w-[250px] py-4 text-sm md:text-base">
           Book your trip in minute, get full Control for much longer.{" "}
@@ -42,20 +46,21 @@ export default function Footer() {
             alt="Social Logo"
             height="50"
             width="50"
-            className="mr-2"
+            className="mr-2 cursor-pointer"
           />
           <Image
             src="/Social (1).jpg"
             alt="Social Logo"
             height="50"
             width="50"
-            className="mr-2"
+            className="mr-2 cursor-pointer"
           />
           <Image
             src="/Social (2).jpg"
             alt="Social Logo"
             height="50"
             width="50"
+            className="cursor-pointer"
           />
         </div>
 
@@ -66,14 +71,14 @@ export default function Footer() {
             alt=" Logo"
             height="50"
             width="130"
-            className="mr-2"
+            className="mr-2 cursor-pointer"
           />
           <Image
             src="/Play Store.jpg"
             alt="Logo"
             height="50"
             width="130"
-            className="mr-2"
+            className="mr-2 cursor-pointer"
           />
         </div>
       </div>

@@ -7,11 +7,21 @@ export default function Navbar() {
         Jad<span className=" text-orange-400">oo</span>
       </h1>
       <nav className="space-x-8 text-gray-600 text-sm font-medium">
-        <Link href="#"> Destinations </Link>
-        <Link href="#"> Hotels </Link>
-        <Link href="#"> Flights </Link>
-        <Link href="#"> Bookings </Link>
-        <Link href="#"> Login </Link>
+        <Link href="#" className="hover:text-orange-400">
+          Destinations
+        </Link>
+        <Link href="#" className="hover:text-orange-400">
+          Hotels
+        </Link>
+        <Link href="#" className="hover:text-orange-400">
+          Flights
+        </Link>
+        <Link href="#" className="hover:text-orange-400">
+          Bookings
+        </Link>
+        <Link href="#" className="hover:text-orange-400">
+          Login
+        </Link>
         {/* <Link href="#"> Signup </Link> */}
         <button className="border px-4 py-1 rounded-md"> Signup</button>
         <select className="text-sm">

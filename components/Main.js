@@ -63,7 +63,7 @@ export default function Main() {
         </div>
       </div>
 
-      <div className=" lg:w-1/2 px-5 py-5 rounded-md relative flex justify-center ">
+      <div className=" lg:w-1/2 px-5 py-5 rounded-md relative flex justify-center cursor-pointer ">
         <div>
           <Image
             src="/Rectangle 17.jpg"
