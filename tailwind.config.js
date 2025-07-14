@@ -1,22 +1,38 @@
-/** @type {import('tailwindcss').Config} */
+// /** @type {import('tailwindcss').Config} */
+// const config = {
+//   content: ["./app/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
+//   theme: {
+//     extend: {
+//       screens: {
+//         xsmax: { max: "559px" }, // custom breakpoint
+//       },
+//     },
+//   },
+//   plugins: [],
+//   safelist: ["xsmax:bg-red-500", "xsmax:text-yellow-200"],
+// };
+
+// export default config;
+
+// tailwind.config.js
+import plugin from "tailwindcss/plugin";
+
 const config = {
-  content: [
-    "./src/**/*.{js,ts,jsx,tsx}",
-    "./app/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./app/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      // screens: {
-      //   "below-xs": { max: "559px" },
-      // },
       screens: {
-        xsmax: { max: "559px" }, // use xsmax instead of below-xs
+        xsmax: { max: "559px" },
       },
     },
   },
-  plugins: [],
-  safelist: ["below-xs:bg-red-500"],
+  safelist: ["xsmax:bg-red-500", "xsmax:text-yellow-200"],
+
+  plugins: [
+    plugin(function ({ addVariant }) {
+      addVariant("xsmax", "@media (max-width: 559px)");
+    }),
+  ],
 };
 
 export default config;

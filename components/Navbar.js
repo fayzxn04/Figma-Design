@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <header className="flex justify-between items-center px-16 py-8">
+    <header className="flex justify-between items-center px-16 py-8 ">
       <h1 className="text-3xl font-bold text-black">
         Jad<span className=" text-orange-400">oo</span>
       </h1>
