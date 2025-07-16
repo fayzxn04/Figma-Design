@@ -6,6 +6,7 @@ import Hero from "@/components/Hero";
 import Main from "@/components/Main";
 import Navbar from "@/components/Navbar";
 import SubscribeSection from "@/components/SubscribeSection";
+import Testimonials from "@/components/Testimonials";
 import TopDestinations from "@/components/TopDestinations";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <About />
       <TopDestinations />
       <Main />
+      <Testimonials />
       <SubscribeSection />
       <Footer />
     </>

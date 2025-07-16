@@ -17,12 +17,6 @@ export default function About() {
           <p>Built Wicket longer admire do barton vanity itself do in it.</p>
         </div>
 
-        {/* <div className="flex flex-col justify-center items-center ">
-          <Image src="/Groups.jpg" alt="Plane" height="100" width="100" />
-          <p className="font-semibold px-2 py-4"> Best Flights </p>
-          <p>Engrossed listening Park gate sell they west hard for the.</p>
-        </div> */}
-
         <div className="relative flex flex-col justify-center items-center bg-white rounded-xl shadow-xl -mt-6 px-6 py-8 overflow-hidden">
           {/* Background shape image */}
           <Image

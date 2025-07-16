@@ -3,7 +3,6 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    // <footer className="lg:grid lg:grid-cols-3 lg:px-32 py-10">
     <footer className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-10 gap-x-6 px-6 sm:px-10 lg:px-32 py-10 bg-white text-black  ">
       <div>
         <h3
@@ -17,7 +16,6 @@ export default function Footer() {
         </p>
       </div>
       {/* 2nd */}
-      {/* <div className=" lg:flex lg:flex-row justify-between px-4"> */}
       <div className="flex justify-between gap-4 sm:col-span-1 lg:col-span-">
         <div>
           <h4 className="font-semibold py-2">Company</h4>
@@ -88,6 +86,3 @@ export default function Footer() {
     </footer>
   );
 }
-
-// // col-span-3 text-center pt-6 text-sm text-gray-500
-// // px-0 sm:px-10 lg:px-24
