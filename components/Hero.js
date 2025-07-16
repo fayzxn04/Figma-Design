@@ -17,11 +17,28 @@ export default function Hero() {
           to sports it engrossed listening.
         </p>
 
-        <div className="flex flex-col sm:flex-row  gap-4 justify-center lg:justify-start">
-          <button className="bg-orange-400 text-white px-6 py-3 rounded-md self-center w-auto cursor-pointer ">
+        <div className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-start items-center">
+          {/* Find out more button */}
+          <button className="bg-orange-400 text-white px-6 py-3 rounded-md shadow-md font-medium cursor-pointer">
             Find out more
           </button>
-          <button className="text-black font-semibold ">Play Demo</button>
+
+          {/* Play Demo button */}
+          <button className="flex items-center gap-3 text-gray-500 font-medium cursor-pointer">
+            {/* Circular Play Button */}
+            <div className="w-12 h-12 rounded-full bg-red-400 flex items-center justify-center shadow-md">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="white"
+                viewBox="0 0 24 24"
+                width="20"
+                height="20"
+              >
+                <path d="M8 5v14l11-7z" />
+              </svg>
+            </div>
+            Play Demo
+          </button>
         </div>
       </div>
 

@@ -67,14 +67,14 @@ export default function Footer() {
         <p className="py-3 text-base">Discover our app</p>
         <div className="flex gap-3 ">
           <Image
-            src="/Google Play.jpg"
+            src="/GooglePlay.jpg"
             alt=" Logo"
             height="50"
             width="130"
             className="mr-2 cursor-pointer"
           />
           <Image
-            src="/Play Store.jpg"
+            src="/PlayStore.jpg"
             alt="Logo"
             height="50"
             width="130"

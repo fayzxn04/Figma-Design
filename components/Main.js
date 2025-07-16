@@ -19,9 +19,8 @@ export default function Main() {
           <div>
             <h5 className="font-bold">Choose Destination</h5>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam,
+              Browse top travel locations, pick your dream spot, and get set to
+              explore. Your perfect trip starts right here.
             </p>
           </div>
         </div>
@@ -37,9 +36,8 @@ export default function Main() {
           <div>
             <h5 className="font-bold">Make Payment</h5>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam,
+              Secure your booking quickly with hassle-free payments and instant
+              confirmations sent to your email.
             </p>
           </div>
         </div>
@@ -55,15 +53,14 @@ export default function Main() {
           <div>
             <h5 className="font-bold">Reach Airport on Selected Date</h5>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam,
+              Arrive at the airport on time with your bags packed and ticket in
+              hand. You are ready to take off!
             </p>
           </div>
         </div>
       </div>
 
-      <div className=" lg:w-1/2 px-5 py-5 rounded-md relative flex justify-center cursor-pointer ">
+      <div className=" lg:w-1/2 px-5 py-5 rounded-md relative flex justify-center cursor-pointer transform transition-transform duration-300 hover:-translate-y-2">
         <div>
           <Image
             src="/Rectangle 17.jpg"
@@ -115,20 +112,21 @@ export default function Main() {
             />
           </div>
         </div>
-        <div className="absolute bottom-20 flex ml-60 justify-start items-start bg-white px-6 py-2 rounded-md shadow-md">
+        <div className="absolute bottom-20 flex ml-44 justify-start items-start bg-white px-4 py-2 rounded-md shadow-md">
           <Image
             src="/Mask Group.jpg"
             height="42"
             width="42"
             alt="Mask Photo"
-            className="mr-4 justify-start object-contain items-start"
+            className="mr-4 justify-start object-contain items-start "
           />
-          <div>
+          <div className="min-w-[118px]">
             <p>Ongoing</p>
-            <p className="font-semibold mb-2 whitespace-nowrap">Trip to rome</p>
-            <p>
-              40% <span className="font-semibold">completed</span>
+            <p className="font-semibold mb-2 whitespace-nowrap">Trip to Rome</p>
+            <p className="mb-1.5 break-words">
+              40% <span className="font-semibold">Done</span>
             </p>
+            <Image src="/Slider.jpg" height="50" width="75" alt="Range" />
           </div>
         </div>
       </div>
