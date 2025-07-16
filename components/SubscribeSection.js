@@ -38,7 +38,7 @@ export default function Subscribe() {
             />
           </div>
           <button
-            className="bg-gradient-to-r from-orange-400 to-orange-500 text-white px-6 py-3 rounded-md shadow hover:opacity-90 transition duration-200"
+            className="bg-gradient-to-r from-orange-400 to-orange-500 text-white px-6 py-3 rounded-md shadow hover:opacity-90 transition duration-200 cursor-pointer"
             onClick={handleSubscribe}
           >
             Subscribe
