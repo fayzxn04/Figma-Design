@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+:root {
+  --font-volkhov: "Volkhov", serif;
+  --font-poppins: "Poppins", sans-serif;
+}
+
 /* :root {
   --background: #ffffff;
   --foreground: #171717;

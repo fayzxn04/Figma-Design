@@ -20,10 +20,10 @@ export default function About() {
               src="/Rome.jpg"
               alt="Rome, Italy"
               fill
-              className="object-cover transform transition-transform duration-300 hover:scale-110"
+              className="object-cover transform transition-transform duration-300 scale-155 origin-top hover:scale-160 "
               priority
             />
-            <div className="absolute bottom-0 left-0 w-full bg-white/90 backdrop-blur-md px-4 py-3 rounded-t-xl shadow-md z-10">
+            <div className="absolute bottom-0 left-0 w-full bg-white backdrop-blur-md px-4 py-3  shadow-md z-10">
               <h3 className="text-lg font-semibold text-gray-900">
                 Rome, Italy
               </h3>
@@ -42,10 +42,10 @@ export default function About() {
               src="/London.jpg"
               alt="London, UK"
               fill
-              className="object-cover transform transition-transform duration-300 hover:scale-110"
+              className="object-cover transform transition-transform duration-300 scale-150 origin-top hover:scale-155 "
               priority
             />
-            <div className="absolute bottom-0 left-0 w-full bg-white/90 backdrop-blur-md px-4 py-3 rounded-t-xl shadow-md z-10">
+            <div className="absolute bottom-0 left-0 w-full bg-white backdrop-blur-md px-4 py-3  shadow-md z-10">
               <h3 className="text-lg font-semibold text-gray-900">
                 London, UK
               </h3>
@@ -64,10 +64,10 @@ export default function About() {
               src="/Europe.jpg"
               alt="Full Europe"
               fill
-              className="object-cover transform transition-transform duration-300 hover:scale-110"
+              className="object-cover transform transition-transform duration-300 scale-160 origin-top hover:scale-170 overflow-hidden"
               priority
             />
-            <div className="absolute bottom-0 left-0 w-full bg-white/90 backdrop-blur-md px-4 py-3 rounded-t-xl shadow-md z-10">
+            <div className="absolute bottom-0 left-0 w-full bg-white backdrop-blur-md px-4 py-3  shadow-md z-10">
               <h3 className="text-lg font-semibold text-gray-900">
                 Full Europe
               </h3>

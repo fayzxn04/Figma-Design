@@ -24,6 +24,11 @@ const config = {
       screens: {
         xsmax: { max: "559px" },
       },
+      fontFamily: {
+        heading: ["var(--font-volkhov)", "serif"],
+        subheading: ["var(--font-poppins)", "sans-serif"],
+        body: ["var(--font-poppins)", "sans-serif"],
+      },
     },
   },
   safelist: ["xsmax:bg-red-500", "xsmax:text-yellow-200"],

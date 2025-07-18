@@ -60,14 +60,14 @@ export default function Main() {
         </div>
       </div>
 
-      <div className=" lg:w-1/2 px-5 py-5 rounded-md relative flex justify-center cursor-pointer transform transition-transform duration-300 hover:-translate-y-2">
+      <div className=" lg:w-1/2 px-5 py-5 rounded-md relative flex justify-center cursor-pointer transform transition-transform duration-300 hover:-translate-y-2 ">
         <div>
           <Image
             src="/Rectangle 17.jpg"
             alt="Girl Image"
             width="260"
             height="260"
-            className="object-contain"
+            className="object-contain "
           />
           <p className="font-semibold py-3 text-lg">Trip To Greece </p>
           <p className="text-base text-gray-500">14-29 June | by Robbin jok</p>

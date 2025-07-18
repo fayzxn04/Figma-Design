@@ -6,10 +6,10 @@ export default function Hero() {
     <section className="flex flex-col lg:flex-row items-center justify-between px-4  md:px-16 lg:px-32 py-10 ">
       {/* Left Side */}
       <div className="w-full lg:w-1/2 text-center lg:text-left space-y-4">
-        <p className="text-red-600 font-semibold text-sm">
+        <p className="text-red-600 font-semibold text-sm ">
           BEST DESTINATIONS AROUND THE WORLD
         </p>
-        <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold leading-tight">
+        <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold leading-tight font-heading">
           Travel, enjoy <br /> and live a new <br /> and full life
         </h1>
         <p className="text-gray-600 text-sm md:text-base">

@@ -40,24 +40,24 @@ export default function Footer() {
       <div className=" flex flex-col items-start sm:items-start lg:items-end ">
         <div className="flex gap-3 ">
           <Image
-            src="/Social.jpg"
+            src="/Facebook.jpg"
             alt="Social Logo"
-            height="50"
-            width="50"
+            height="80"
+            width="80"
             className="mr-2 cursor-pointer"
           />
           <Image
-            src="/Social (1).jpg"
+            src="/Instagram.jpg"
             alt="Social Logo"
-            height="50"
-            width="50"
+            height="80"
+            width="80"
             className="mr-2 cursor-pointer"
           />
           <Image
-            src="/Social (2).jpg"
+            src="/Twitter.jpg"
             alt="Social Logo"
-            height="50"
-            width="50"
+            height="80"
+            width="80"
             className="cursor-pointer"
           />
         </div>
