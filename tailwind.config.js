@@ -29,9 +29,18 @@ const config = {
         subheading: ["var(--font-poppins)", "sans-serif"],
         body: ["var(--font-poppins)", "sans-serif"],
       },
+      keyframes: {
+        scroll: {
+          "0%": { transform: "translateX(0%)" },
+          "100%": { transform: "translateX(-50%)" },
+        },
+      },
+      animation: {
+        scroll: "scroll 20s linear infinite",
+      },
     },
   },
-  safelist: ["xsmax:bg-red-500", "xsmax:text-yellow-200"],
+  safelist: ["animate-scroll", "xsmax:bg-red-500", "xsmax:text-yellow-200"],
 
   plugins: [
     plugin(function ({ addVariant }) {

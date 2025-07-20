@@ -1,9 +1,24 @@
+/* @import "tailwindcss";
+
+:root {
+  --font-volkhov: "Volkhov", serif;
+  --font-poppins: "Poppins", sans-serif;
+} */
 @import "tailwindcss";
 
 :root {
   --font-volkhov: "Volkhov", serif;
   --font-poppins: "Poppins", sans-serif;
 }
+
+/* @import "tailwindcss/preflight";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+  --font-volkhov: "Volkhov", serif;
+  --font-poppins: "Poppins", sans-serif;
+} */
 
 /* :root {
   --background: #ffffff;

@@ -6,7 +6,7 @@ export default function About() {
       <h4 className="text-black uppercase flex justify-center items-center text-2xl px-6 mt-16">
         Category
       </h4>
-      <h1 className="text-black flex justify-center items-center text-4xl font-semibold px-6 mt-3">
+      <h1 className="text-black flex justify-center items-center text-4xl font-semibold px-6 mt-3 text-center">
         We Offer Best Services
       </h1>
 
