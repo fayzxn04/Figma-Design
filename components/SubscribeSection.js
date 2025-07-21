@@ -18,7 +18,7 @@ export default function Subscribe() {
 
       {/* Main */}
       <div className="flex flex-col items-center text-center ">
-        <h2 className="text-gray-800 text-xl sm:text-2xl md:text-3xl font-semibold max-w-2xl leading-relaxed">
+        <h2 className="text-gray-800 text-xl sm:text-2xl md:text-3xl font-poppins-medium max-w-2xl leading-relaxed">
           Subscribe to get information, latest news and other{" "}
           <br className="hidden sm:block" />
           interesting offers about{" "}
@@ -34,11 +34,11 @@ export default function Subscribe() {
               placeholder="Your email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="flex-1 bg-transparent outline-none text-sm"
+              className="flex-1 bg-transparent outline-none text-sm font-poppins-regular"
             />
           </div>
           <button
-            className="bg-gradient-to-r from-orange-400 to-orange-500 text-white px-6 py-3 rounded-md shadow hover:opacity-90 transition duration-200 cursor-pointer"
+            className="bg-gradient-to-r from-orange-400 to-orange-500 text-white px-6 py-3 rounded-md shadow hover:opacity-90 transition duration-200 cursor-pointer font-poppins-regular"
             onClick={handleSubscribe}
           >
             Subscribe

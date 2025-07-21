@@ -6,25 +6,25 @@ export default function Hero() {
     <section className="flex flex-col lg:flex-row items-center justify-between px-4  md:px-16 lg:px-32 py-10 ">
       {/* Left Side */}
       <div className="w-full lg:w-1/2 text-center lg:text-left space-y-4">
-        <p className="text-red-600 font-semibold text-sm ">
+        <p className="text-red-600 font-semibold text-sm font-poppins-bold">
           BEST DESTINATIONS AROUND THE WORLD
         </p>
-        <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold leading-tight font-heading">
+        <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold leading-tight font-volkhov-bold">
           Travel, enjoy <br /> and live a new <br /> and full life
         </h1>
-        <p className="text-gray-600 text-sm md:text-base">
+        <p className="text-gray-600 text-sm md:text-base font-poppins-medium">
           Built Wicket longer admire do barton vanity itself do in it. Preferred
           to sports it engrossed listening.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-start items-center">
           {/* Find out more button */}
-          <button className="bg-orange-400 text-white px-6 py-3 rounded-md shadow-md font-medium cursor-pointer">
+          <button className="bg-orange-400 text-white px-6 py-3 rounded-md shadow-md font-medium cursor-pointer font-poppins-medium">
             Find out more
           </button>
 
           {/* Play Demo button */}
-          <button className="flex items-center gap-3 text-gray-500 font-medium cursor-pointer">
+          <button className="flex items-center gap-3 text-gray-500 font-medium cursor-pointer font-poppins-medium">
             {/* Circular Play Button */}
             <div className="w-12 h-12 rounded-full bg-red-400 flex items-center justify-center shadow-md">
               <svg

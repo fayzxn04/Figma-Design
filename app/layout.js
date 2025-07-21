@@ -1,22 +1,15 @@
-import "./globals.css"; // ✅ required to make Tailwind styles apply
-import { Volkhov } from "next/font/google";
-import { Poppins } from "next/font/google";
-
-const volkhov = Volkhov({
-  subsets: ["latin"],
-  weight: ["700"], // Bold
-  variable: "--font-volkhov",
-});
-
-const poppins = Poppins({
-  subsets: ["latin"],
-  weight: ["500", "600"], // 500 = Medium, 600 = Semi-Bold
-  variable: "--font-poppins",
-});
+import "./globals.css";
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${volkhov.variable} ${poppins.variable}`}>
+    <html lang="en">
+      <head>
+        {/* ✅ Google Fonts link */}
+        <link
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Volkhov:wght@700&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body>{children}</body>
     </html>
   );

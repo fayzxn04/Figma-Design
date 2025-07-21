@@ -7,7 +7,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="flex justify-between items-center px-6 md:px-16 py-6 relative">
+    <header className="flex justify-between items-center px-6 md:px-16 py-6 relative font-poppins-medium">
       {/* Logo */}
       <h1 className="text-3xl font-bold text-black z-50">
         Jad<span className="text-orange-400">oo</span>

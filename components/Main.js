@@ -4,8 +4,10 @@ export default function Main() {
   return (
     <main className="flex flex-col lg:flex-row items-center justify-between px-4 md:px-16 lg:px-32 py-10 ">
       <div className="lg:w-1/2">
-        <p className="text-gray-400 font-semibold py-2  ">Easy and Fast</p>
-        <p className="text-4xl text-black font-medium py-3">
+        <p className="text-gray-400 font-semibold py-2 font-poppins-medium ">
+          Easy and Fast
+        </p>
+        <p className="text-4xl text-black font-volkhov-bold py-3">
           Book Your Next Trip In 3 Easy Steps
         </p>
         <div className="flex mb-6">
@@ -17,8 +19,8 @@ export default function Main() {
             className="flex mr-3 object-contain"
           />
           <div>
-            <h5 className="font-bold">Choose Destination</h5>
-            <p>
+            <h5 className="font-poppins-medium">Choose Destination</h5>
+            <p className="font-poppins-regular">
               Browse top travel locations, pick your dream spot, and get set to
               explore. Your perfect trip starts right here.
             </p>
@@ -34,8 +36,8 @@ export default function Main() {
             className="flex mr-3 object-contain"
           />
           <div>
-            <h5 className="font-bold">Make Payment</h5>
-            <p>
+            <h5 className="font-poppins-medium">Make Payment</h5>
+            <p className="font-poppins-regular">
               Secure your booking quickly with hassle-free payments and instant
               confirmations sent to your email.
             </p>
@@ -51,8 +53,10 @@ export default function Main() {
             className="flex mr-3 object-contain"
           />
           <div>
-            <h5 className="font-bold">Reach Airport on Selected Date</h5>
-            <p>
+            <h5 className="font-poppins-medium">
+              Reach Airport on Selected Date
+            </h5>
+            <p className="font-poppins-regular">
               Arrive at the airport on time with your bags packed and ticket in
               hand. You are ready to take off!
             </p>
@@ -69,8 +73,10 @@ export default function Main() {
             height="260"
             className="object-contain "
           />
-          <p className="font-semibold py-3 text-lg">Trip To Greece </p>
-          <p className="text-base text-gray-500">14-29 June | by Robbin jok</p>
+          <p className="font-poppins-medium py-3 text-lg">Trip To Greece </p>
+          <p className="text-base text-gray-500 font-poppins-regular">
+            14-29 June | by Robbin jok
+          </p>
           <div className="flex py-3 space-x-3">
             <Image
               src="/LEAF.jpg"
@@ -102,7 +108,10 @@ export default function Main() {
               height="24"
               className="object-contain mr-3"
             />
-            <p className="text-base text-gray-500"> 24 people going </p>
+            <p className="text-base text-gray-500 font-poppins-regular">
+              {" "}
+              24 people going{" "}
+            </p>
             <Image
               src="/heart (6) 1.jpg"
               alt="Heart"
@@ -122,9 +131,11 @@ export default function Main() {
           />
           <div className="min-w-[118px]">
             <p>Ongoing</p>
-            <p className="font-semibold mb-2 whitespace-nowrap">Trip to Rome</p>
+            <p className=" mb-2 whitespace-nowrap font-poppins-medium">
+              Trip to Rome
+            </p>
             <p className="mb-1.5 break-words">
-              40% <span className="font-semibold">Done</span>
+              40% <span className="font-poppins-medium">Done</span>
             </p>
             <Image src="/Slider.jpg" height="50" width="75" alt="Range" />
           </div>
